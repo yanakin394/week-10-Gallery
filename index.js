@@ -6,5 +6,5 @@ function clickPrevious() {
 }
 
 function clickNext() {
-    /* blockFoto.style.backgroundImage = url("assets/images/cat2.jpg") */
+    blockFoto.style.backgroundImage = "url('assets/images/cat1.jpg')";
 }
