@@ -5,15 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery</title>
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <div class="body_wrap">
         <h1>Cats</h1> 
-        <img src="assets/images/cat1.jpg" alt="cat_image">
-        <div class="buttons">
-            <button onClick="" class="previous">Previous</button>
-            <button onClick="" class="next">Next</button>
+        <div id="img" class="img"></div>
+        <div class="buttons" id="buttons">
+            <button onClick="clickPrevious" class="previous">Previous</button>
+            <button onClick="clickNext" class="next">Next</button>
         </div>
     </div>
 </body>
