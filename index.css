@@ -1,0 +1,13 @@
+.body_wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+
